@@ -1,0 +1,33 @@
+<script>
+  let pelanggan = "Yulia Ananda Siregar";
+  let TotalBelanja = "150000";
+  let keterangan = "";
+
+  if (TotalBelanja > 100000) {
+    keterangan = " selamat " + pelanggan + " Anda Mendapatkan Hadiah ";
+  } else {
+    keterangan = " Terimakasih " + pelanggan + " sudah belanja ";
+  }
+  document.write(
+    " Atas nama pelanggan " +
+      pelanggan +
+      " Dengan Total Belanja " +
+      TotalBelanja +
+      " Keterangan " +
+      keterangan
+  );
+</script>
+
+<script>
+  let siswa = " Halimah Alaydrus ";
+  let nilai = " 75 ";
+  let ket = nilai >= 60 ? " Lulus " : " Gagal ";
+  document.write(
+    " <br> Siswa Bernama " +
+      siswa +
+      " Dengan Nilai " +
+      nilai +
+      " dinyatakan " +
+      ket
+  );
+</script>
